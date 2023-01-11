@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL here](https://your-solution-url.com)
-- [Live Site URL here](https://your-live-site-url.com)
+- [Solution URL here](https://github.com/mishael-codes/sunnyside-agency-landing-page-main)
+- [Live Site URL here](https://mishael-codes.github.io/sunnyside-agency-landing-page-main/)
 
 ## My process
 
