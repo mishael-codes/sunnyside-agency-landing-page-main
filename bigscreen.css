@@ -1,0 +1,189 @@
+@media screen and (min-width: 650px) {
+  .header {
+    height: fit-content;
+  }
+  .ham {
+    display: none;
+  }
+
+  .navbar > .navlist {
+    position: relative;
+    top: 0;
+    right: 0;
+    flex-direction: row;
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+    height: fit-content;
+    clip-path: none;
+    color: red;
+    background-color: transparent;
+  }
+
+  .navlist > li {
+    margin: 0 0.5rem;
+  }
+
+  .navlist > li > a {
+    color: var(--h1-text-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .navlist > li > button {
+    color: var(--secondary-heading);
+    border: 0;
+    outline: 0;
+    padding: 1rem;
+    font-size: 0.7rem;
+    border-radius: 30px;
+    background-color: var(--h1-text-color);
+    transition: 0.5s;
+  }
+
+  .navlist > li > button:hover {
+    color: var(--h1-text-color);
+    background-color: hsla(0, 0%, 100%, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  #first-heading {
+    top: 15vh;
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .arrow-down{
+    top: 30vh;
+    scale: .8;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .transform-container {
+    flex-direction: row-reverse;
+  }
+
+  .transform {
+    max-width: 50%;
+  }
+  .transform-img {
+    min-width: 50%;
+  }
+
+  .stand-out {
+    max-width: 50%;
+  }
+
+  .stand-out-img {
+    max-width: 100%;
+  }
+
+  .transform,
+  .stand-out {
+    padding: 1rem 4rem;
+    align-items: flex-start;
+  }
+
+  .transform h2,
+  .transform p,
+  .stand-out h2,
+  .stand-out p{
+    text-align: left;
+  }
+
+  .transform a:hover:after {
+    background-color: var(--strong-yellow);
+    transition: .5s;
+  }
+
+  .stand-out a:hover:after {
+    background-color: var(--hot-soft-red);
+    transition: .5s;
+  }
+
+  .graphic-img,
+  .photography-img {
+    max-width: 50vw;
+  }
+
+  .graphic-img {
+    margin-top: -1vh;
+  }
+
+  .graphics-text,
+  .photography-text{
+    width: 80%;
+    bottom: 2vh;
+  }
+
+  .clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .client {
+    scale: 0.8;
+  }
+
+  .designs {
+    grid-template-columns: repeat(4, 25%);
+  }
+
+  .footer-nav {
+    justify-content: center;
+  }
+
+  .footer-nav li a {
+    margin: 0 2rem;
+  }
+
+  
+  .footer-nav li a:hover,
+  .socials i:hover{
+    color: var(--h1-text-color);
+    cursor: pointer;
+    transition: .3s;
+  }
+}
+
+/* optimizes the .transform section and the .stand-out section to fit the specified screen widths */
+@media screen and (min-width: 650px) and (max-width: 720px) {
+  .transform,
+  .stand-out {
+    padding: 1rem 2rem;
+  }
+}
+
+/* for screen size larger than 1000px */
+@media screen and (min-width: 1000px) {
+  #first-heading {
+    top: 25vh;
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .arrow-down {
+    top: 43vh;
+    scale: 1;
+  }
+
+  .transform,
+  .stand-out {
+    padding: 6rem;
+  }
+
+  .graphics-text,
+  .photography-text{
+    width: 60%;
+    bottom: 5vh;
+    font-size: 1.5rem;
+  }
+}
